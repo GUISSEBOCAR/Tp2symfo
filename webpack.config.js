@@ -23,7 +23,10 @@ Encore
      * Each entry will result in one JavaScript file (e.g. app.js)
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
+    //.addEntry('globalJS', './assets/global/js/app.js')
+    //.addStyleEntry('globalStyle', './assets/global/scss/import.scss')
     .addEntry('globalJS', './assets/global/js/app.js')
+ 
     .addStyleEntry('globalStyle', './assets/global/scss/import.scss')
 //.addStyleEntry('globalStyle2', './assets/global/scss/color.scss')
 //.addStyleEntry('globalStyle', './assets/global/scss/import.scss')

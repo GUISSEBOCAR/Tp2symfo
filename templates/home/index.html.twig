@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+<style>
+
+</style>
+
+<div>
+<ul>
+	      <h1> coucou je m'affiche !</h1>
+</ul>
+</div>
+
+<div>
+	<ul>
+		<p> ce site à pour vocation de presenter des sujets de thése</p>
+		<p>  pour d'éventuels futurs thésards en manque d'inspiration</p>
+	</ul>
+</div>
+
+<div>
+<ul>
+	<p><a href="{{path('article')}}"> Liste des Theses</a></p>
+</div>
+
+<div class="example-wrapper">
+    <h1>Hello {{ controller_name }}! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ '/home/bocar/mesProjetM2/symfony/responsiveskeleton-master/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>
+        <li>Your template at <code><a href="{{ '/home/bocar/mesProjetM2/symfony/responsiveskeleton-master/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>
+    </ul>
+</div>
+{% endblock %}
