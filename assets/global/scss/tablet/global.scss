@@ -4,5 +4,19 @@ body{
   // affiche le bandeau du profiler de symfony en bleu sombre
   .sf-toolbarreset{
     background-color: #244657;
+    }
+
+  div{
+    background-color: greenyellow;
   }
+
+  h2{
+    font-size: 100 ;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  
 }
+
